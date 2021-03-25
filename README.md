@@ -1,10 +1,10 @@
 ![alt text](https://cdn.pterodactyl.io/logos/new/pterodactyl_logo_transparent.png)
 
-In this project we are gradually translating the Pterodactyl panel to German language in order to create a more pleasant environment for our users. This is a community project for [Pterodactyl](https://pterodactyl.io).
+In this project we are gradually translating the Pterodactyl panel to any languages in order to create a more pleasant environment for our users. This is a community project for [Pterodactyl](https://pterodactyl.io).
 
 ## Installation
 
-Just drag download the latest [RELEASE](https://github.com/akazia-eu/pterodactylde/releases) on the release page 
+Just drag download the latest [RELEASE](https://github.com/M4rlus/pterodactyl-lang//releases) on the release page 
 and drag them into your root panel directory.
 
 ```
