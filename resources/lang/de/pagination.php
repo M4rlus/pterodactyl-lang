@@ -3,15 +3,15 @@
 return [
     /*
     |--------------------------------------------------------------------------
-    | Pagination Language Lines
+    | Paginierung Sprachzeilen
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used by the paginator library to build
-    | the simple pagination links. You are free to change them to anything
-    | you want to customize your views to better match your application.
+    | Die folgenden Sprachzeilen werden von der Paginator-Bibliothek zum Erstellen verwendet
+    | die einfachen Paginierungslinks. Es steht Ihnen frei, sie beliebig zu ändern
+    | Sie möchten Ihre Ansichten anpassen, damit sie besser zu Ihrer Anwendung passen.
     |
     */
 
-    'previous' => '&laquo; Zurück',
-    'next' => 'Weiter &raquo;',
+    'previous' => '&laquo; Vorherige',
+    'next' => 'Nächste &raquo;',
 ];
