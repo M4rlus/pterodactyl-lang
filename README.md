@@ -2,6 +2,15 @@
 
 In this project we are gradually translating the Pterodactyl panel to any languages in order to create a more pleasant environment for our users. This is a community project for [Pterodactyl](https://pterodactyl.io).
 
+## Available Languages
+
+| Language  | Supported          |
+| -------   | ------------------ |
+| English   | :white_check_mark: |
+| German    | :white_check_mark: |
+| Russia    | :white_check_mark: |
+| Norway    | :white_check_mark: |
+
 ## Installation
 
 Just drag download the latest [RELEASE](https://github.com/M4rlus/pterodactyl-lang//releases) on the release page 
