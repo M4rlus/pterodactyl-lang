@@ -9,15 +9,16 @@
 
 return [
     'validation' => [
-        'fqdn_not_resolvable' => 'The FQDN or IP address provided does not resolve to a valid IP address.',
-        'fqdn_required_for_ssl' => 'A fully qualified domain name that resolves to a public IP address is required in order to use SSL for this node.',
+        'fqdn_not_resolvable' => 'Het opgegeven FQDN of IP-adres wordt niet omgezet naar een geldig IP-adres.',
+        'fqdn_required_for_ssl' => 'Een volledig gekwalificeerde domeinnaam die naar een openbaar IP-adres verwijst, is vereist om SSL te gebruiken voor deze node.',
     ],
     'notices' => [
-        'allocations_added' => 'Allocations have successfully been added to this node.',
-        'node_deleted' => 'Node has been successfully removed from the panel.',
-        'location_required' => 'You must have at least one location configured before you can add a node to this panel.',
-        'node_created' => 'Successfully created new node. You can automatically configure the daemon on this machine by visiting the \'Configuration\' tab. <strong>Before you can add any servers you must first allocate at least one IP address and port.</strong>',
-        'node_updated' => 'Node information has been updated. If any daemon settings were changed you will need to reboot it for those changes to take effect.',
-        'unallocated_deleted' => 'Deleted all un-allocated ports for <code>:ip</code>.',
+        'allocations_added' => 'Allocaties zijn succesvol toegevoegd aan deze node.',
+        'node_deleted' => 'Node is succesvol verwijderd uit het paneel.',
+        'location_required' => 'Je moet minstens één locatie geconfigureerd hebben voordat je een node aan dit paneel kunt toevoegen.',
+        'node_created' => 'Nieuwe node succesvol aangemaakt. Je kunt de daemon op deze machine automatisch configureren door het tabblad \'Configuratie\' te bezoeken. <strong>Voordat je servers kunt toevoegen, moet je minstens één IP-adres en poort toewijzen.</strong>',
+        'node_updated' => 'Node-informatie is bijgewerkt. Als er wijzigingen zijn aangebracht in daemoninstellingen, moet je deze opnieuw opstarten voor deze wijzigingen van kracht worden.',
+        'unallocated_deleted' => 'Alle niet-toegewezen poorten zijn verwijderd voor <code>:ip</code>.',
     ],
 ];
+
