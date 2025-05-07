@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'permissions' => [
+        'websocket_*' => 'Zezwala na dostęp do websocket dla tego serwera.',
+        'control_console' => 'Pozwala użytkownikowi wysyłać dane do konsoli serwera.',
+        'control_start' => 'Pozwala użytkownikowi uruchomić instancję serwera.',
+        'control_stop' => 'Pozwala użytkownikowi zatrzymać instancję serwera.',
+        'control_restart' => 'Pozwala użytkownikowi zrestartować instancję serwera.',
+        'control_kill' => 'Pozwala użytkownikowi wymusić zatrzymanie instancji serwera.',
+        'user_create' => 'Pozwala użytkownikowi tworzyć nowe konta użytkowników dla serwera.',
+        'user_read' => 'Pozwala użytkownikowi przeglądać użytkowników powiązanych z tym serwerem.',
+        'user_update' => 'Pozwala użytkownikowi modyfikować innych użytkowników powiązanych z tym serwerem.',
+        'user_delete' => 'Pozwala użytkownikowi usuwać innych użytkowników powiązanych z tym serwerem.',
+        'file_create' => 'Pozwala użytkownikowi tworzyć nowe pliki i katalogi.',
+        'file_read' => 'Pozwala użytkownikowi przeglądać pliki i foldery powiązane z tą instancją serwera oraz wyświetlać ich zawartość.',
+        'file_update' => 'Pozwala użytkownikowi aktualizować pliki i foldery powiązane z serwerem.',
+        'file_delete' => 'Pozwala użytkownikowi usuwać pliki i katalogi.',
+        'file_archive' => 'Pozwala użytkownikowi tworzyć archiwa plików i rozpakowywać istniejące archiwa.',
+        'file_sftp' => 'Pozwala użytkownikowi wykonywać powyższe operacje na plikach za pomocą klienta SFTP.',
+        'allocation_read' => 'Pozwala na dostęp do stron zarządzania alokacją serwera.',
+        'allocation_update' => 'Pozwala użytkownikowi na wprowadzanie zmian w alokacjach serwera.',
+        'database_create' => 'Pozwala użytkownikowi tworzyć nową bazę danych dla serwera.',
+        'database_read' => 'Pozwala użytkownikowi przeglądać bazy danych serwera.',
+        'database_update' => 'Pozwala użytkownikowi na wprowadzanie zmian w bazie danych. Jeśli użytkownik nie ma również uprawnienia "Podgląd hasła", nie będzie mógł modyfikować hasła.',
+        'database_delete' => 'Pozwala użytkownikowi usuwać instancję bazy danych.',
+        'database_view_password' => 'Pozwala użytkownikowi przeglądać hasło bazy danych w systemie.',
+        'schedule_create' => 'Pozwala użytkownikowi tworzyć nowy harmonogram dla serwera.',
+        'schedule_read' => 'Pozwala użytkownikowi przeglądać harmonogramy serwera.',
+        'schedule_update' => 'Pozwala użytkownikowi wprowadzać zmiany w istniejącym harmonogramie serwera.',
+        'schedule_delete' => 'Pozwala użytkownikowi usuwać harmonogram serwera.',
+    ],
+];
