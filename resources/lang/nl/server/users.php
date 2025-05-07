@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'permissions' => [
+        'websocket_*' => 'Geeft toegang tot de websocket voor deze server.',
+        'control_console' => 'Geeft de gebruiker toestemming om gegevens naar de serverconsole te verzenden.',
+        'control_start' => 'Geeft de gebruiker toestemming om de serverinstantie te starten.',
+        'control_stop' => 'Geeft de gebruiker toestemming om de serverinstantie te stoppen.',
+        'control_restart' => 'Geeft de gebruiker toestemming om de serverinstantie te herstarten.',
+        'control_kill' => 'Geeft de gebruiker toestemming om de serverinstantie te beëindigen.',
+        'user_create' => 'Geeft de gebruiker toestemming om nieuwe gebruikersaccounts voor de server aan te maken.',
+        'user_read' => 'Geeft de gebruiker toestemming om gebruikers te bekijken die zijn gekoppeld aan deze server.',
+        'user_update' => 'Geeft de gebruiker toestemming om andere gebruikers die zijn gekoppeld aan deze server te wijzigen.',
+        'user_delete' => 'Geeft de gebruiker toestemming om andere gebruikers die zijn gekoppeld aan deze server te verwijderen.',
+        'file_create' => 'Geeft de gebruiker toestemming om nieuwe bestanden en mappen aan te maken.',
+        'file_read' => 'Geeft de gebruiker toestemming om bestanden en mappen te bekijken die zijn gekoppeld aan deze serverinstantie, evenals om de inhoud ervan te bekijken.',
+        'file_update' => 'Geeft de gebruiker toestemming om bestanden en mappen te wijzigen die zijn gekoppeld aan de server.',
+        'file_delete' => 'Geeft de gebruiker toestemming om bestanden en mappen te verwijderen.',
+        'file_archive' => 'Geeft de gebruiker toestemming om bestandsarchieven te maken en bestaande archieven uit te pakken.',
+        'file_sftp' => 'Geeft de gebruiker toestemming om de bovengenoemde bestandsacties uit te voeren met behulp van een SFTP-client.',
+        'allocation_read' => 'Geeft toegang tot de pagina\'s voor serverallocatiebeheer.',
+        'allocation_update' => 'Geeft de gebruiker toestemming om wijzigingen aan te brengen in de toewijzingen van de server.',
+        'database_create' => 'Geeft de gebruiker toestemming om een nieuwe database voor de server aan te maken.',
+        'database_read' => 'Geeft de gebruiker toestemming om de serverdatabases te bekijken.',
+        'database_update' => 'Geeft de gebruiker toestemming om wijzigingen aan te brengen in een database. Als de gebruiker ook niet de toestemming "Wachtwoord weergeven" heeft, kan hij het wachtwoord niet wijzigen.',
+        'database_delete' => 'Geeft de gebruiker toestemming om een database-instantie te verwijderen.',
+        'database_view_password' => 'Geeft de gebruiker toestemming om een database-wachtwoord in het systeem te bekijken.',
+        'schedule_create' => 'Geeft de gebruiker toestemming om een nieuw schema voor de server aan te maken.',
+        'schedule_read' => 'Geeft de gebruiker toestemming om schema\'s voor een server te bekijken.',
+        'schedule_update' => 'Geeft de gebruiker toestemming om wijzigingen aan te brengen in een bestaand serverschema.',
+        'schedule_delete' => 'Geeft de gebruiker toestemming om een schema voor de server te verwijderen.',
+    ],
+];
